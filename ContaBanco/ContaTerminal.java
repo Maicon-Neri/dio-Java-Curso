@@ -5,7 +5,17 @@ import java.util.Scanner;
 
 class ContaTerminal {
     public static void main(String[] args){
-        double saldo = 237.48;
+
+        if (args.length < 4){
+            return;
+        }
+
+        String numeroConta = args[0];
+        int numeroAgencia = Integer.parseInt(args[1]);
+        String cliente = args[2];
+        double saldo = Double.parseDouble(args[3]);
+
+
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
@@ -18,12 +28,12 @@ class ContaTerminal {
         System.out.print("Usuario: ");
         String conta = scanner.nextLine();
 
-        System.out.println("Por favor, digite o seu nome!");
-        System.out.print("Usuario: ");
-        String cliente = scanner.nextLine();
-
-        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %d, conta %s e seu saldo %.2f já está disponível para saque.%n", cliente, agencia, conta, saldo);
-
+        if(agencia == numeroAgencia && conta.equals(numeroConta)){
+            System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %d, conta %s e seu saldo %.2f já está disponível para saque.%n", cliente, agencia, conta, saldo);
+        } else {
+            System.out.printf("Erro: Agência ou conta não coincidem. Verifique os dados e tente novamente.");
+        }
+        
         // Fechando o scanner
         scanner.close();
     }
