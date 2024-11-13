@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Contator",
+            "request": "launch",
+            "mainClass": "controlefluxo.Contator",
+            "projectName": "dio-Java-Curso_548a164"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -16,7 +23,12 @@
             "request": "launch",
             "mainClass": "ContaBanco.ContaTerminal",
             "projectName": "dio-Java-Curso_548a164",
-            "args": ["067-8", 1021, "MARIO ANDRADE", 237.48]
+            "args": [
+                "067-8",
+                1021,
+                "MARIO ANDRADE",
+                237.48
+            ]
         }
     ]
 }
