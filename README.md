@@ -1,4 +1,4 @@
-# Desafios do Curso de Java - Digital Innovation One (DIO)
+# Desafios dos Curso da DIO - Digital Innovation One (DIO)
 
 Este repositório contém os códigos e desafios resolvidos durante o curso de **Java** da [Digital Innovation One (DIO)](https://www.dio.me/).
 
