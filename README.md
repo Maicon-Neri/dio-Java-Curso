@@ -8,7 +8,7 @@ Este repositório contém os códigos e desafios resolvidos durante o curso de *
 - **Aprendizado Contínuo**: Arquivos criados para revisão e prática.
 
 ## 📝 Sobre o Curso
-O curso aborda os fundamentos da linguagem **Java** e **C#**, explorando conceitos básicos e intermediários. É ideal para quem está começando ou deseja se aprofundar na programação com Java.
+O curso aborda os fundamentos da linguagem **Java** e **C#**, explorando conceitos básicos e intermediários. É ideal para quem está começando ou deseja se aprofundar na programação.
 
 
 ## 🌟 Créditos
